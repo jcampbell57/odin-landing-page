@@ -45,9 +45,19 @@ header {
     flex-direction: column;
 }
 
+.content button {
+    padding: 10px 100px;
+}
+
 .container#two {
     flex-direction: column;
     text-align: center;
+    gap: 16px;
+}
+
+.container#two h1 {
+    margin: 0;
+    padding: 0;
 }
 
 .subcontainer {
@@ -71,11 +81,28 @@ header {
     align-items: center;
     width: 100px;
     gap: 10px;
-    font-size: ;
 }
 
 .container#three {
     background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 450px;
+}
+
+.message {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.attribution {
+    text-align: right;
+    font-size: 18px;
 }
 
 footer {
