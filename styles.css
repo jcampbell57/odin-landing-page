@@ -40,6 +40,11 @@ header {
     background-color: #1f2937;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
 .container#three {
     background-color: #E5E7EB;
 }
