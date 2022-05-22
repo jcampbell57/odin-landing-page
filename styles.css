@@ -45,6 +45,35 @@ header {
     flex-direction: column;
 }
 
+.container#two {
+    flex-direction: column;
+    text-align: center;
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.illustration {
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    padding: 8px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    gap: 10px;
+    font-size: ;
+}
+
 .container#three {
     background-color: #E5E7EB;
 }
