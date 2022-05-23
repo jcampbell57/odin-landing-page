@@ -7,9 +7,15 @@ body {
 
 header {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: #1f2937;
     padding: 16px;
+}
+
+.header {
+    display: flex;
+    width: 900px;
 }
 
 .logo h1 {
@@ -34,44 +40,78 @@ header {
 .container {
     display: flex;
     padding: 16px;
+    height: 360px;
 }
 
 .container#one {
     background-color: #1f2937;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-}
-
-.content button {
-    padding: 10px 100px;
-}
-
-.container#two {
-    flex-direction: column;
-    text-align: center;
-    gap: 16px;
-}
-
-.container#two h1 {
-    margin: 0;
-    padding: 0;
+    justify-content: center;
 }
 
 .subcontainer {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 8px;
+}
+
+.content .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;    
+}
+
+.content a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: white;
+    padding: 8px 16px;
+    width: 120px;
+}
+
+.image {
+    background-color: grey;
+    height: 240px;
+    width: 465px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+
+}
+
+.container#two {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.container#two h1 {
+    margin: 20px;
+    padding: 0;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .illustration {
     border: 3px solid #3882F6;
     border-radius: 10px;
-    height: 100px;
-    width: 100px;
-    padding: 8px;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 8px;
 }
 
 .card {
@@ -79,8 +119,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100px;
-    gap: 10px;
+    width: 130px;
 }
 
 .container#three {
@@ -91,7 +130,7 @@ header {
 }
 
 .quote {
-    width: 450px;
+    width: 500px;
 }
 
 .message {
@@ -108,6 +147,7 @@ header {
 
 .container#four {
     justify-content: center;
+    align-items: center;
 }
 
 .container .action {
@@ -118,6 +158,7 @@ header {
     gap: 40px;
     background-color: #3882F6;
     border-radius: 5px;
+    height: 80px;
     width: 600px;
 }
 
@@ -146,7 +187,7 @@ footer {
     align-items: center;
     margin-top: auto;
     background-color: #1f2937;
-    padding: 16px;
+    padding: 30px;
     color: #E5E7EB;
     font-size: 18px;
 }
